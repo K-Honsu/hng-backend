@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'hngTasks',
     'rest_framework',
     'drf_yasg',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
