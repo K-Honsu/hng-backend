@@ -7,6 +7,6 @@ from rest_framework_nested import routers
 
 # urlpatterns = router.urls
 urlpatterns = [
-    path('slack-data/', views.HNGTaskViewSet.as_view(), name='slack-data-list'),
+    path('api', views.HNGTaskViewSet.as_view(), name='slack-data-list'),
 ]
 
