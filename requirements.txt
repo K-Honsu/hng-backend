@@ -8,6 +8,7 @@ drf-yasg
 gunicorn
 inflection
 packaging
+psycopg2-binary
 python-decouple
 pytz
 PyYAML
