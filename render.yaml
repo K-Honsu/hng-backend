@@ -1,0 +1,11 @@
+name: hng Api
+env:
+  - key: SECRET_KEY
+    value: config('SECRET_KEY')
+deploy:
+  - type: web
+    name: hng-API
+    command: gunicorn hng.wsgi:application --bind 0.0.0.0:$PORT
+
+    routes:
+      - path: /

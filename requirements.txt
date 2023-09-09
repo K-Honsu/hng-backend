@@ -1,0 +1,16 @@
+asgiref
+dj-database-url
+Django
+django-filter
+djangorestframework
+drf-nested-routers
+drf-yasg
+gunicorn
+inflection
+packaging
+python-decouple
+pytz
+PyYAML
+sqlparse
+typing_extensions
+uritemplate
