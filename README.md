@@ -73,6 +73,12 @@ https://hng-tasks-mbti.onrender.com/api/ : make sure to include the name field i
 ```
 https://hng-tasks-mbti.onrender.com/api/{id}/  : make sure to select the correct HTTP Method before sending the request
 ```
+## Documentation
+
+- To view proper documentation of API Service, kindly head over to:
+```
+https://hng-tasks-mbti.onrender.com/docs/swagger/
+```
 
 ## Error Handling
 - Errors such as field must not be blank are taken care of by Django.
