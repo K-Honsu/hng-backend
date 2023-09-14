@@ -67,7 +67,7 @@ Quit the server with CONTROL-C.
 ```
 https://hng-tasks-mbti.onrender.com/api/ : make sure to include the name field in the JSON body as shown below
 ```
-<img src="./images/Screenshot (960).png"700px" height="500px">
+<img src="./images/Screenshot (960).png" width="700px" height="500px" alt="register a user">
 
 - To GET, UPDATE or DELETE the person/name that has been created in your api client, head over to:
 ```
