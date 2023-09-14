@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(" ")
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -89,8 +88,8 @@ DATABASES = {
     }
 }
 
-# database_url = os.environ.get('DATABASE_URL')
-# DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
+database_url = os.environ.get('DATABASE_URL')
+DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
 
 
 # Password validation
