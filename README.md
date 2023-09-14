@@ -63,23 +63,16 @@ Quit the server with CONTROL-C.
 - Congratulations, you have now successfully run a Django Python backend on the local server!
 
 ## Usage 
-- To register a new user, in your web browser, head over to:
+- To register a new name/person, by sending a POST request in your api client, head over to:
 ```
-http://127.0.0.1:8000/auth/users/ : to create a new user
+https://hng-tasks-mbti.onrender.com/api/ : make sure to include the name field in the JSON body as shown below
 ```
-<img src="./images/Screenshot 2023-09-11 at 6.44.09 PM.png" alt="register a user" width="700px" height="500px">
-- To login a new user, in your web browser, head over to:
-```
-http://127.0.0.1:8000/users/login/  : to login a new user
-```
-<img src="./images//login.png" alt="login in a user" width="700px" height="500px">
-- To logout a new user, in your web browser, head over to:
-```
-http://127.0.0.1:8000/users/logout/  : to logout a new user
-```
-<img src="./images/logout.png" alt="logout a user" width="700px" height="500px">
+<img src="./images/Screenshot (960).png"700px" height="500px">
 
-
+- To GET, UPDATE or DELETE the person/name that has been created in your api client, head over to:
+```
+https://hng-tasks-mbti.onrender.com/api/{id}/  : make sure to select the correct HTTP Method before sending the request
+```
 
 ## Error Handling
 - Errors such as field must not be blank are taken care of by Django.
