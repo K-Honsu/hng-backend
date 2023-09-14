@@ -80,5 +80,11 @@ https://hng-tasks-mbti.onrender.com/api/{id}/  : make sure to select the correct
 https://hng-tasks-mbti.onrender.com/docs/swagger/
 ```
 
+## UML DIAGRAM
+- Find link of uml diagram attached 
+```
+https://drive.google.com/file/d/1909gz5_Cdmwwk4iqEMGQFu5Ow1gF8_va/view?usp=sharing
+```
+
 ## Error Handling
 - Errors such as field must not be blank are taken care of by Django.
