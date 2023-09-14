@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hngTasks',
+    # 'hngTasks',
     'rest_framework',
     'drf_yasg',
     'stageTwo',
@@ -89,8 +89,8 @@ DATABASES = {
     }
 }
 
-database_url = os.environ.get('DATABASE_URL')
-DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
+# database_url = os.environ.get('DATABASE_URL')
+# DATABASES['default'] = dj_database_url.parse(config('DATABASE_URL'))
 
 
 # Password validation
